@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/resources/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/resources/script.js" async></script>
+    <title>StefanPetkovićPortfolio</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="/resources/images/home-page/Sample Portfolio Logo.png" class="logo" alt="portfolio logo">
+          
+            <ul>
+               <li><a href="#home">HOME</a></li>
+               <li><a href="#about">ABOUT</a></li>
+               <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <section class="home" id="home">
+            <div class="content">
+                <h1>STEFAN PETKOVIĆ</h1>
+                <h2>official portfolio website</h2>
+            </div>
+            <div class="down-arrow-container">
+                <a href="#about"><i class="fa-solid fa-angles-down" class="down-arrow"></i></a>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="detel">
+                <h2>My Story<img src="/resources/images/about-page/logo-for-navbar.png" class="about-me-small-logo"></h2>
+                <p>I am a beginner website developer from
+                    Serbia. Mostly focusing on front-end part 
+                    of a website development but at the same time
+                    also interested in learning PHP. While learning
+                    on CodeCademy website I have learned a lot but
+                    I haven't done any projects on my own, so that's
+                    the plan for my future because there is no good
+                    website developer without a practice. Finding a job
+                    as an junior JavaScript developer is my key, while
+                    that happens I'm going to do freelance.
+                </p>
+                <p class="learn-more">If you would like to know more contact me using <a href="#contact" >Contact page</a></p>
+            </div>
+            <div class="images">
+                <img src="/resources/images/about-page/shape.png" class="shape">
+                <img src="/resources/images/about-page/homepage logo.png" class="about-logo">
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="get-in-touch">
+                <div>
+                    <h2>Let's get in touch</h2>
+                    <p>If you have any questions or you would 
+                        like to hire me you can do so by clicking on 
+                        one of those links or emailing me directly.
+                        I will try and help you in any way possible.
+                    </p>
+                </div>
+                <div>
+                    <a href="https://github.com/cCoKeXx" target="_blank"><img src="/resources/images/contact-page/Github link.png"></a>
+                    <a href="https://www.instagram.com/stefan_petkovic03/" target="_blank" ><img src="/resources/images/contact-page/Instagram link.png"></a>
+                    <a href="https://www.facebook.com/stefan.petkovic.7186" target="_blank" ><img src="/resources/images/contact-page/Facebook link.png"></a>
+                </div>
+            </div>
+            <div class="form">
+                
+                <form action="https://formsubmit.co/d44ca4eeb48b28c5039d9b3175c6b961" method="POST">
+                    <h2>Email ME!</h2>
+                    <!--Honeypot -->
+                    <input type="text" name="_honey" style="display: none;">
+
+                    <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500">
+                    
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="First&nbsp;Name" required>
+        
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="Last&nbsp;Name" required>
+                 
+                 
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="Email&nbsp;adress" required>
+                  
+                        <label for="tel">Phone#:</label>
+                        <input type="tel" id="tel" name="Phone&nbsp;number" placeholder="+381 000 000 000">
+                  
+                        <label for="com">Comments,questions?</label>
+                        <textarea id="com" name="Comments&nbsp;Questions" required></textarea>
+                        <div>
+                            <input type="reset" class="form-buttons">
+                            <input type="submit" class="form-buttons">
+                        </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
