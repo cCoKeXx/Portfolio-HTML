@@ -1,14 +1,14 @@
 @font-face {
     font-family: overpassBold;
-    src: url(./fonts/overpass-bold.ttf);
+    src: url(/resources/fonts/overpass-bold.ttf);
 }
 @font-face{
     font-family: overpassRegular;
-    src: url(./fonts/overpass-regular.ttf)
+    src: url(/resources/fonts/overpass-regular.ttf)
 }
 @font-face {
     font-family: nirmala;
-    src: url(./fonts/Nirmala.ttf);
+    src: url(/resources/fonts/Nirmala.ttf);
 }
 /* GLOBAL STYLES */
 *{
@@ -36,7 +36,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./images/home-page/background.png);
+    background-image: url(/resources/images/home-page/background.png);
     background-size: cover;
     background-position:center;
 }
@@ -432,10 +432,10 @@ textarea{
     }
     /*CONTACT PAGE*/
     .get-in-touch h2{
-        font-size: 30px;
+        font-size: 25px;
     }
     .get-in-touch p{
-        font-size: 16px;
+        font-size: 14px;
     }
     .get-in-touch img{
         width: 40px;
@@ -446,5 +446,6 @@ textarea{
     }
     form{
         width: 100%;
+        padding: 10px;
     }
 }
