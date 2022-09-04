@@ -1,14 +1,14 @@
 @font-face {
     font-family: overpassBold;
-    src: url(/resources/fonts/overpass-bold.ttf);
+    src: url(./fonts/overpass-bold.ttf);
 }
 @font-face{
     font-family: overpassRegular;
-    src: url(/resources/fonts/overpass-regular.ttf)
+    src: url(./fonts/overpass-regular.ttf)
 }
 @font-face {
     font-family: nirmala;
-    src: url(/resources/fonts/Nirmala.ttf);
+    src: url(./fonts/Nirmala.ttf);
 }
 /* GLOBAL STYLES */
 *{
@@ -36,7 +36,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/resources/images/home-page/background.png);
+    background-image: url(./images/home-page/background.png);
     background-size: cover;
     background-position:center;
 }
